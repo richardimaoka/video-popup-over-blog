@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The AI Chronicles</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="site-title">The AI Chronicles</div>
+      <div class="site-description">
+        Exploring the Evolution of Artificial Intelligence
+      </div>
+    </header>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <article class="article">
+        <h1 class="article-title">
+          The Evolution of Modern AI Models: A Brief History
+        </h1>
+        <div class="article-meta">
+          <div class="avatar">A</div>
+          <div>
+            <div>By Dr. Alex Morgan</div>
+            <div>May 15, 2025 · 8 min read</div>
+          </div>
+        </div>
+
+        <div class="article-content">
+          <p>
+            The landscape of artificial intelligence has transformed
+            dramatically over the past decade. From the early days of deep
+            learning breakthroughs to today's sophisticated multimodal models,
+            we've witnessed an unprecedented acceleration in capabilities. This
+            rapid evolution began with several key developments in neural
+            network architectures and training methodologies
+            <button class="citation-button" data-ref="1">[1]</button>.
+          </p>
+
+          <p>
+            One of the most significant leaps forward came with the development
+            of the Transformer architecture in 2017. This innovation, which
+            replaced recurrent neural networks with attention mechanisms, proved
+            to be remarkably efficient at modeling long-range dependencies in
+            sequential data. The original paper introducing this architecture,
+            "Attention is All You Need"
+            <button class="citation-button" data-ref="2">[2]</button>, set the
+            foundation for virtually all large language models that followed.
+          </p>
+
+          <p>
+            Following the Transformer breakthrough, we saw the emergence of
+            increasingly large pre-trained language models. According to
+            OpenAI's paper about GPT-3, model performance can be dramatically
+            improved by a technique called few-shot learning
+            <button class="citation-button" data-ref="3">[3]</button>, which
+            allows these systems to adapt to new tasks with minimal examples.
+            This finding suggested that scale itself was a path to emergent
+            capabilities, setting off an arms race for larger models across the
+            industry.
+          </p>
+
+          <p>
+            The next significant advancement came through the development of
+            multimodal models that could process both text and images. The
+            introduction of DALL-E, Stable Diffusion, and similar systems
+            <button class="citation-button" data-ref="4">[4]</button>
+            demonstrated remarkable image-generation capabilities based on
+            textual prompts. These models built upon earlier work in image
+            recognition and generation while leveraging the powerful language
+            understanding of large language models.
+          </p>
+
+          <p>
+            More recently, researchers have developed models that can process
+            and generate content across multiple modalities including text,
+            images, audio, and video
+            <button class="citation-button" data-ref="5">[5]</button>. This
+            represents a significant step toward more human-like AI systems that
+            can perceive and interact with the world in ways that more closely
+            mirror human cognition.
+          </p>
+
+          <p>
+            The training methodologies have also evolved substantially.
+            Reinforcement Learning from Human Feedback (RLHF) has become a
+            standard approach to aligning AI systems with human preferences and
+            values <button class="citation-button" data-ref="6">[6]</button>.
+            This technique has proven essential for developing AI assistants
+            that are helpful, harmless, and honest.
+          </p>
+
+          <p>
+            Looking ahead, researchers are exploring ways to make AI systems
+            more efficient, transparent, and controllable. The development of
+            techniques like sparse mixture of experts
+            <button class="citation-button" data-ref="7">[7]</button> allows for
+            much larger models that activate only relevant portions of their
+            networks for specific tasks, potentially leading to more efficient
+            and specialized AI systems.
+          </p>
+
+          <p>
+            As these technologies continue to advance, they raise important
+            questions about their societal impact, ethical use, and governance.
+            The rapid pace of progress in AI capabilities has outstripped our
+            understanding of their implications, creating an urgent need for
+            thoughtful consideration of how these powerful tools should be
+            developed and deployed.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2025 The AI Chronicles. All rights reserved.</p>
+    </footer>
+
+    <!-- Citation Popups -->
+    <div class="popup-overlay" id="popup-overlay">
+      <div class="popup" id="popup-container">
+        <button class="popup-close" id="popup-close">×</button>
+        <h2 class="popup-title" id="popup-title"></h2>
+        <div class="popup-authors" id="popup-authors"></div>
+        <p class="popup-abstract" id="popup-abstract"></p>
+        <a href="#" class="popup-link" id="popup-link">Read more</a>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
