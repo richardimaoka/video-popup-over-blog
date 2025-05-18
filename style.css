@@ -15,8 +15,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--bg-color);
@@ -138,6 +138,7 @@ main {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   z-index: 1000;
   align-items: center;
@@ -154,7 +155,7 @@ main {
 .popup {
   background-color: var(--popup-bg);
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.9);
   width: 100%;
   max-width: 500px;
   padding: 1.5rem;
@@ -241,6 +242,3 @@ footer {
 
   .nav-links {
     justify-content: center;
-    gap: 2rem;
-  }
-}
